@@ -26,7 +26,7 @@ int main() {
 
 	string ip = Config["server"]["ip"];
 
-	int port = Config["server"]["port "];
+	int port = Config["server"]["port"];
 	
 	string password = Config["user"]["password"];
 
