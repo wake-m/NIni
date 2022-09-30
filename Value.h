@@ -1,8 +1,7 @@
-#pragma once
+#ifndef VALUE_H
+#define VALUE_H
 #include<iostream>
 #include<string>
-
-
 class Value
 {
 public:
@@ -30,4 +29,9 @@ public:
 private:
 	std::string m_Value;
 };
+
+#endif // !VALUE_H
+
+
+
 

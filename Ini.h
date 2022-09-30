@@ -1,4 +1,5 @@
-#pragma once
+#ifndef INI_H
+#define INI_H
 #include<iostream>
 #include<string>
 #include<fstream>
@@ -20,6 +21,9 @@ public:
 private:
 	std::string ConfigFile;
 	key_key_value all_data;
-	
+
 };
+#endif // !INI_H
+
+
 
