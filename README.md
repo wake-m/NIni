@@ -1,7 +1,9 @@
 NINI is a simple, lightweight cross-platform INI parser
-使用方法
+
+
 If the ini file is like this
 ```
+//config.ini
 bc=true
 [server]
 ip=127.0.1
@@ -18,9 +20,8 @@ using namespace std;
 
 int main() {
 	Ini Config;
-
+	//open config file
 	Config.PointToFile(".\\config.ini");
-
 
 	bool bc = Config[""]["bc"];
 
